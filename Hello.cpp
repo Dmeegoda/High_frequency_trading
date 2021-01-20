@@ -1,7 +1,11 @@
-#include <isotream>
-int main()
+#include <iostream>
+using namespace std;
+int main() 
 {
-        std::cout << "Hello World" << std:: endl;
-        printf("Hello World");
-    
+
+int x = 0x5e;
+cout << x << endl;
+cout << hex << x << endl;
+return 0;
+
 }
